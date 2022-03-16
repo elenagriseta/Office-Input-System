@@ -43,6 +43,7 @@ public class MouseLook : MonoBehaviour
         playerInputaction.Enable();
     }
 
+
     private void OnDisable()
     {
         playerInputaction.Disable();
